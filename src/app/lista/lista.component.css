@@ -1,0 +1,25 @@
+.table-container {
+    margin: 20px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  
+  .lista-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .lista-table th, .lista-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .lista-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .lista-table tr:hover {
+    background-color: #f5f5f5;
+}
+  

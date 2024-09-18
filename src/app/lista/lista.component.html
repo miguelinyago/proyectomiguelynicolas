@@ -1,0 +1,23 @@
+<p>lista works!</p>
+
+<div class="table-container">
+    <table class="lista-table">
+      <thead>
+        <tr>
+          <th>Nombre del Producto</th>
+          <th>Categoría</th>
+          <th>Precio</th>
+          <th>Stock</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of lista">
+          <td>{{ item.name }}</td>
+          <td>{{ item.category }}</td>
+          <td>{{ item.price | currency }}</td>
+          <td>{{ item.stock }}</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+  
